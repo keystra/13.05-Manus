@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "KeyStra Consultoria",
+  "url": "https://keystra.com.br",
+  "logo": "https://keystra.com.br/images/logo.png",
+  "description": "A KeyStra é uma consultoria multidisciplinar focada em pequenas e médias empresas, oferecendo serviços nas áreas Financeira, Operacional, Comercial, Recursos Humanos e Engenharia.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "São Paulo",
+    "addressRegion": "SP",
+    "addressCountry": "BR"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+55-11-9999-9999",
+    "contactType": "customer service",
+    "email": "contato@keystra.com.br",
+    "availableLanguage": "Portuguese"
+  },
+  "sameAs": [
+    "https://www.facebook.com/keystra",
+    "https://www.linkedin.com/company/keystra",
+    "https://www.instagram.com/keystra",
+    "https://twitter.com/keystra"
+  ],
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": -23.5505,
+      "longitude": -46.6333
+    },
+    "geoRadius": "100000"
+  },
+  "knowsAbout": [
+    "Consultoria Financeira",
+    "Consultoria Operacional",
+    "Consultoria Comercial",
+    "Consultoria de Recursos Humanos",
+    "Consultoria Técnica",
+    "Pequenas e Médias Empresas",
+    "Gestão Empresarial"
+  ]
+}
